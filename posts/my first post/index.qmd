@@ -1,0 +1,29 @@
+---
+title: "Post Estimation Diagnostics"
+author: "Justin Bussey"
+date: "2023-05-07"
+categories: [blog, bio, resume]
+image: "image.jpg"
+---
+
+Hi, let's run a regression.
+
+```{r, echo=TRUE}
+
+library(ISLR2)
+
+mydata<-ISLR2::Credit
+
+model<-lm(Rating~., data=mydata)
+
+summary(model)
+
+
+```
+
+Blaa blaa blaa
+
+```{r, echo=TRUE}
+
+plot(mydata$Income, mydata$Rating)
+```

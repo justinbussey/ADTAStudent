@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Justin Bussey",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Justin Bussey",
+    "section": "",
+    "text": "Post Estimation Diagnostics\n\n\n\n\n\n\n\nblog\n\n\nbio\n\n\nresume\n\n\n\n\n\n\n\n\n\n\n\nMay 7, 2023\n\n\nJustin Bussey\n\n\n\n\n\n\n  \n\n\n\n\nWelcome to my portfolio\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nMay 4, 2023\n\n\nJustin Bussey\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/my first post/index.html",
+    "href": "posts/my first post/index.html",
+    "title": "Post Estimation Diagnostics",
+    "section": "",
+    "text": "Hi, let’s run a regression.\n\nlibrary(ISLR2)\n\nmydata&lt;-ISLR2::Credit\n\nmodel&lt;-lm(Rating~., data=mydata)\n\nsummary(model)\n\n\nCall:\nlm(formula = Rating ~ ., data = mydata)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-23.3598  -7.3602  -0.6895   6.2918  27.5461 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 32.008407   4.135731   7.739 8.74e-14 ***\nIncome       0.123873   0.046848   2.644  0.00852 ** \nLimit        0.063192   0.001426  44.309  &lt; 2e-16 ***\nCards        4.596743   0.391004  11.756  &lt; 2e-16 ***\nAge          0.012590   0.030358   0.415  0.67858    \nEducation   -0.234910   0.163793  -1.434  0.15232    \nOwnYes       0.220363   1.019729   0.216  0.82902    \nStudentYes  -2.006844   2.805020  -0.715  0.47476    \nMarriedYes   2.382346   1.058422   2.251  0.02495 *  \nRegionSouth -0.309647   1.255101  -0.247  0.80526    \nRegionWest  -2.006170   1.449253  -1.384  0.16707    \nBalance      0.011990   0.005179   2.315  0.02112 *  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 10.15 on 388 degrees of freedom\nMultiple R-squared:  0.9958,    Adjusted R-squared:  0.9957 \nF-statistic:  8399 on 11 and 388 DF,  p-value: &lt; 2.2e-16\n\n\nBlaa blaa blaa\n\nplot(mydata$Income, mydata$Rating)"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome to my portfolio",
+    "section": "",
+    "text": "Hello, my name is Justin Bussey\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  }
+]

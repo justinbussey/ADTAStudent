@@ -1,0 +1,12 @@
+---
+title: "Welcome to my portfolio"
+author: "Justin Bussey"
+date: "2023-05-04"
+categories: [R]
+---
+
+Hello, my name is Justin Bussey
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
