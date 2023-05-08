@@ -1,9 +1,12 @@
 ---
 title: "Resume"
 ---
+
 ```{r, echo=FALSE}
 library(knitr)
 include_graphics("C:/Users/jrb0440/Documents/School/ADTA 5410 - Applications and Deployment of Advanced Analytics/Project/ADTAStudent/posts/my first post/resume_Page_1.png")
 include_graphics("C:/Users/jrb0440/Documents/School/ADTA 5410 - Applications and Deployment of Advanced Analytics/Project/ADTAStudent/posts/my first post/resume_Page_2.png")
+
+
 
 ```

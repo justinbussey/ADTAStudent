@@ -1,0 +1,26 @@
+Date: May 7th, 2023
+
+---
+title: "Code that I have performed"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/justinbussey/
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+```{r, echo=FALSE, out.width='100%'}
+cat("## LINEAR REGRESSION USING R STUDIO")
+knitr::include_graphics(c("C:/Users/jrb0440/Documents/School/ADTA 5410 - Applications and Deployment of Advanced Analytics/Project/ADTAStudent/example.png"))
+cat("\n## DECISION TREES USING SAS ENTERPRISE MINER\n")
+knitr::include_graphics(c("C:/Users/jrb0440/Documents/School/ADTA 5410 - Applications and Deployment of Advanced Analytics/Project/ADTAStudent/example2.png"))
+cat("\n## BOX PLOTS USING PYTHON\n")
+knitr::include_graphics(c("C:/Users/jrb0440/Documents/School/ADTA 5410 - Applications and Deployment of Advanced Analytics/Project/ADTAStudent/example3.png"))
+
+
+```
+

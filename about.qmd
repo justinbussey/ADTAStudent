@@ -1,12 +1,9 @@
 ---
-title: "Justin Bussey"
-image: profile.jpg
+title: "About Justin Bussey"
+image: "jb_profilepic.png"
 about:
   template: jolla
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/justinbussey
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/justinbussey/
@@ -15,4 +12,12 @@ about:
       href: https://github.com
 ---
 
-About this blog
+Hello,
+
+My name is Justin Bussey (he/him), I am currently working at Bell Textron, Inc. My main responsibilities are to analyze data on inventory, costs, supplier performance, and other key metrics to provide feedback to internal customers.
+
+I graduated from The University of North Texas with a bachelor's in aviation logistics and an MBA with a concentration in Business Analytics. I am a full-time student pursuing a master's in advanced data analytics. My expected graduation date is May 2023.
+
+If I were to describe myself in three words: athletic, competitive, and realist.
+
+If I had a magical machine learning algorithm that tells me the truth just 5 minutes before it happens I would utilize it to make myself a billionaire, then try to make the world a better place with the money I have.
